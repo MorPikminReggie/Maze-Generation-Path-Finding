@@ -111,7 +111,9 @@ public:
 		int searchy;
 		int targetx;
 		int targety;
+		cout << "Lutfen baslama noktasinin x ve y koordinatlarini giriniz\n";
 		cin >> searchx >> searchy;
+		cout << "Lutfen bitis noktasinin x ve y koordinatlarini giriniz\n";
 		cin >> targetx >> targety;
 		searchx += 2;
 		searchy += 2;
@@ -176,6 +178,7 @@ public:
 int main()
 {
 	int x, y;
+	cout << "Lutfen labirentin x ve y degerlerini giriniz\n";
 	cin >> x >> y;
 	Maze maze(x, y);
 	maze.cerceve();
